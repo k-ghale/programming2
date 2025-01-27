@@ -79,7 +79,7 @@ class Week2{
 
     //saving all the medal to file Medals.txt
     Console.WriteLine("\n\nSaving to file");
-    string fileName = "/home/neo/Code/Programming2/Medals.txt";
+    string fileName = "Medals.txt";
     using(StreamWriter sw = new StreamWriter(fileName)){
       foreach(var medal in medals){
         sw.WriteLine(medal);
