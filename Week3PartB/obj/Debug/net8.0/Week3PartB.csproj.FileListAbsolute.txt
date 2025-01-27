@@ -1,0 +1,15 @@
+/home/neo/Code/Programming2/Week3PartB/bin/Debug/net8.0/Week3PartB
+/home/neo/Code/Programming2/Week3PartB/bin/Debug/net8.0/Week3PartB.deps.json
+/home/neo/Code/Programming2/Week3PartB/bin/Debug/net8.0/Week3PartB.runtimeconfig.json
+/home/neo/Code/Programming2/Week3PartB/bin/Debug/net8.0/Week3PartB.dll
+/home/neo/Code/Programming2/Week3PartB/bin/Debug/net8.0/Week3PartB.pdb
+/home/neo/Code/Programming2/Week3PartB/obj/Debug/net8.0/Week3PartB.GeneratedMSBuildEditorConfig.editorconfig
+/home/neo/Code/Programming2/Week3PartB/obj/Debug/net8.0/Week3PartB.AssemblyInfoInputs.cache
+/home/neo/Code/Programming2/Week3PartB/obj/Debug/net8.0/Week3PartB.AssemblyInfo.cs
+/home/neo/Code/Programming2/Week3PartB/obj/Debug/net8.0/Week3PartB.csproj.CoreCompileInputs.cache
+/home/neo/Code/Programming2/Week3PartB/obj/Debug/net8.0/Week3PartB.sourcelink.json
+/home/neo/Code/Programming2/Week3PartB/obj/Debug/net8.0/Week3PartB.dll
+/home/neo/Code/Programming2/Week3PartB/obj/Debug/net8.0/refint/Week3PartB.dll
+/home/neo/Code/Programming2/Week3PartB/obj/Debug/net8.0/Week3PartB.pdb
+/home/neo/Code/Programming2/Week3PartB/obj/Debug/net8.0/Week3PartB.genruntimeconfig.cache
+/home/neo/Code/Programming2/Week3PartB/obj/Debug/net8.0/ref/Week3PartB.dll

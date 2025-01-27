@@ -1,43 +1,87 @@
 ﻿
 class Week3PartA
 {
-   public static void Main(string[] args){
-        List<int> l1 = new List<int>();
-
-        l1.Add(4);
-        l1.Add(2);
-        l1.Add(3);
-        l1.Add(1);
-
-        foreach (int item in l1)
+    public static void Main(string[] args){
+        //create a list to store the objects
+        List<Time> times = new List<Time>()
         {
-           Console.WriteLine(item); 
+            new Time(9, 35),
+                new Time(18, 5),
+                new Time(20, 500),
+                new Time(10),
+                new Time()
+        };
+        //display all the objects
+        TimeFormat format = TimeFormat.Hour12;
+        Console.WriteLine($"\n\nTime format is {format}");
+        foreach (Time t in times)
+        {
+            Console.WriteLine(t);
+        }
+        //change the format of the output
+        format = TimeFormat.Mil;
+        Console.WriteLine($"\n\nSetting time format to {format}");
+        //SetFormat(TimeFormat) is a class member, so you need the type to access it
+        Time.SetFormat(format);
+        //again display all the objects
+        foreach (Time t in times)
+        {
+            Console.WriteLine(t);
+        }
+        //change the format of the output
+        format = TimeFormat.Hour24;
+        Console.WriteLine($"\n\nSetting time format to {format}");
+        //SetFormat(TimeFormat) is a class member, so you need the type to access it
+        Time.SetFormat(format);
+        foreach (Time t in times)
+        {
+            Console.WriteLine(t);
         }
 
-        Console.WriteLine();
-
-        List<int> sorted = bubSort(l1);
-
-        foreach (int i in sorted)
-        {
-           Console.WriteLine(i); 
-        }
-
-   }
-
-   public  static List<int> bubSort(List<int> l1){
-       for (int i = 0; i < l1.Count - 1; i++)
-       {
-           for (int j = 0; j < l1.Count - i - 1; j++)
-           {
-               if(l1[j] > l1[j+1]){
-                   int temp = l1[j];
-                   l1[j] = l1[j+1];
-                   l1[j+1] = temp;
-               } 
-           }
-       }
-       return l1;
-   }
+    }
 }
 
+class Time{
+    private static TimeFormat TIME_FORMAT {get; set;} = TimeFormat.Hour12;
+    public int Hour {get;}
+    public int Minute {get;}
+
+    public Time(int hours = 0 , int minutes = 0){
+        Hour = hours;
+        Minute = minutes;  
+    }
+
+    public override String ToString(){
+        string result ;
+        switch (TIME_FORMAT)
+        {
+            case TimeFormat.Mil:
+
+                result = $"{Hour:D2}{Minute%100:D2}";
+                break;
+
+            case TimeFormat.Hour12:
+                int hour12 = (Hour % 12 == 0) ? 12 : Hour % 12;
+                string period = Hour >= 12 ? "PM" : "AM";
+                result = $"{hour12:D2}:{Minute%100:D2} {period}";
+                break;
+
+            case TimeFormat.Hour24:
+                result = $"{Hour:D2}:{Minute%100:D2}";
+                break;
+
+            default:
+                result = "Invalid Format";
+                break;
+
+        }
+        return result;
+    }
+
+    public static void SetFormat(TimeFormat timeFormat){
+        TIME_FORMAT = timeFormat; 
+    }
+
+
+
+}
