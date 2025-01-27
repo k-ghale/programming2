@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/neo/Code/Week2Prog2/Week2Prog2.csproj": {}
+    "/home/neo/Code/Programming2/Week2PartB/Week2Prog2.csproj": {}
   },
   "projects": {
-    "/home/neo/Code/Week2Prog2/Week2Prog2.csproj": {
+    "/home/neo/Code/Programming2/Week2PartB/Week2Prog2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/neo/Code/Week2Prog2/Week2Prog2.csproj",
+        "projectUniqueName": "/home/neo/Code/Programming2/Week2PartB/Week2Prog2.csproj",
         "projectName": "Week2Prog2",
-        "projectPath": "/home/neo/Code/Week2Prog2/Week2Prog2.csproj",
+        "projectPath": "/home/neo/Code/Programming2/Week2PartB/Week2Prog2.csproj",
         "packagesPath": "/home/neo/.nuget/packages/",
-        "outputPath": "/home/neo/Code/Week2Prog2/obj/",
+        "outputPath": "/home/neo/Code/Programming2/Week2PartB/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/neo/.nuget/NuGet/NuGet.Config"
