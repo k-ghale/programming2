@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/neo/Code/Programming2/Week3PartA/Week3PartA.csproj": {}
+    "/home/neo/Code/SemesterTwo/Programming2/Week3PartA/Week3PartA.csproj": {}
   },
   "projects": {
-    "/home/neo/Code/Programming2/Week3PartA/Week3PartA.csproj": {
+    "/home/neo/Code/SemesterTwo/Programming2/Week3PartA/Week3PartA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/neo/Code/Programming2/Week3PartA/Week3PartA.csproj",
+        "projectUniqueName": "/home/neo/Code/SemesterTwo/Programming2/Week3PartA/Week3PartA.csproj",
         "projectName": "Week3PartA",
-        "projectPath": "/home/neo/Code/Programming2/Week3PartA/Week3PartA.csproj",
+        "projectPath": "/home/neo/Code/SemesterTwo/Programming2/Week3PartA/Week3PartA.csproj",
         "packagesPath": "/home/neo/.nuget/packages/",
-        "outputPath": "/home/neo/Code/Programming2/Week3PartA/obj/",
+        "outputPath": "/home/neo/Code/SemesterTwo/Programming2/Week3PartA/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/neo/.nuget/NuGet/NuGet.Config"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.108/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.112/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
