@@ -60,7 +60,6 @@ public class Complex{
         int real = lhs.Real - rhs.Real;
         int imaginary = lhs.Imaginary - rhs.Imaginary;
         return new Complex(real, imaginary);
-
     }
 
     public static bool operator ==(Complex lhs, Complex rhs){
