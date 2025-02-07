@@ -69,6 +69,19 @@ public class Complex{
     public static bool operator !=(Complex lhs, Complex rhs){
         return false;
     }
+    
+    //Additional Tasks
+    public static Complex operator *(Complex lhs, Complex rhs){
+        int real = (lhs.Real*rhs.Real)-(lhs.Imaginary*rhs.Imaginary);
+        int imaginary =  (lhs.Real*rhs.Imaginary)+(lhs.Imaginary + rhs.Real);
+        return new Complex(real, imaginary);
+    }
+
+    public static Complex operator -(Complex c){
+        return new Complex(-c.Real, -c.Imaginary);
+    }
+
+ 
 
 }
 
@@ -86,6 +99,14 @@ class Program{
         Console.WriteLine($"{c3} in polar form is {c3.Modulus:f2}cis({c3.Argument:f2})");
         Console.WriteLine($"{c0} {(c0 == c1 ? "=" : "!=")} {c1}");
         Console.WriteLine($"{c0} {(c0 == c2 ? "=" : "!=")} {c2}");
+    
+        Console.WriteLine("Additional Tasks");
+        
+        Complex c4 = c1 * c2;
+        Console.WriteLine($"{c4}");
+        
+        Complex c5 = -c4;
+        Console.WriteLine($"{c5}");
     }
 }
 
