@@ -1,4 +1,4 @@
-﻿//Parent Class
+﻿//Parent Class - Abstract
 abstract class Shape{
     public string name{get;}
     public abstract double Area {
@@ -22,9 +22,9 @@ class Square : Shape
 
     public Square(string name, double length) : base(name)
     {
-       Length = length;
+        Length = length;
     }
-    
+
 }
 
 class Circle : Square
@@ -35,7 +35,7 @@ class Circle : Square
     {
     }
 }
-    
+
 //Right Hand Side
 class Rectangle : Shape
 {
@@ -79,7 +79,6 @@ class Diamond : Rectangle
 }
 
 //Main 
-
 class Program{
     public static void Main(string[] args){
         //although Shape is an abstract is can be used as a reference type
