@@ -22,7 +22,7 @@ public class Atom{
     }
 
     public static Atom Parse(string line){
-        // Split the input string into parts
+
         string[] parts = line.Split(' ');
 
         // Ensure that we have exactly 5 parts

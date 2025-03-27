@@ -38,7 +38,7 @@ public class Complex{
     public int Real{get;}
     public int Imaginary{get;}
     public double Argument => Math.Atan2(Imaginary,Real);
-    public double Modulus => Math.Sqrt(((Imaginary*Imaginary) + (Real*Real)));
+    public double Modulus => Math.Sqrt((Imaginary*Imaginary) + (Real*Real));
     public static Complex Zero => new Complex(0,0);
 
     public Complex(int real = 0, int imaginary = 0 ){
@@ -80,9 +80,6 @@ public class Complex{
     public static Complex operator -(Complex c){
         return new Complex(-c.Real, -c.Imaginary);
     }
-
- 
-
 }
 
 class Program{
@@ -99,7 +96,9 @@ class Program{
         Console.WriteLine($"{c3} in polar form is {c3.Modulus:f2}cis({c3.Argument:f2})");
         Console.WriteLine($"{c0} {(c0 == c1 ? "=" : "!=")} {c1}");
         Console.WriteLine($"{c0} {(c0 == c2 ? "=" : "!=")} {c2}");
-    
+
+        
+        //Additional Tasks
         Console.WriteLine("Additional Tasks");
         
         Complex c4 = c1 * c2;

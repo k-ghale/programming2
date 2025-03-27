@@ -1,0 +1,15 @@
+/home/neo/Code/SemesterTwo/Programming2/Week7/bin/Debug/net8.0/Week7
+/home/neo/Code/SemesterTwo/Programming2/Week7/bin/Debug/net8.0/Week7.deps.json
+/home/neo/Code/SemesterTwo/Programming2/Week7/bin/Debug/net8.0/Week7.runtimeconfig.json
+/home/neo/Code/SemesterTwo/Programming2/Week7/bin/Debug/net8.0/Week7.dll
+/home/neo/Code/SemesterTwo/Programming2/Week7/bin/Debug/net8.0/Week7.pdb
+/home/neo/Code/SemesterTwo/Programming2/Week7/obj/Debug/net8.0/Week7.GeneratedMSBuildEditorConfig.editorconfig
+/home/neo/Code/SemesterTwo/Programming2/Week7/obj/Debug/net8.0/Week7.AssemblyInfoInputs.cache
+/home/neo/Code/SemesterTwo/Programming2/Week7/obj/Debug/net8.0/Week7.AssemblyInfo.cs
+/home/neo/Code/SemesterTwo/Programming2/Week7/obj/Debug/net8.0/Week7.csproj.CoreCompileInputs.cache
+/home/neo/Code/SemesterTwo/Programming2/Week7/obj/Debug/net8.0/Week7.sourcelink.json
+/home/neo/Code/SemesterTwo/Programming2/Week7/obj/Debug/net8.0/Week7.dll
+/home/neo/Code/SemesterTwo/Programming2/Week7/obj/Debug/net8.0/refint/Week7.dll
+/home/neo/Code/SemesterTwo/Programming2/Week7/obj/Debug/net8.0/Week7.pdb
+/home/neo/Code/SemesterTwo/Programming2/Week7/obj/Debug/net8.0/Week7.genruntimeconfig.cache
+/home/neo/Code/SemesterTwo/Programming2/Week7/obj/Debug/net8.0/ref/Week7.dll
